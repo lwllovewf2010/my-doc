@@ -1,0 +1,1821 @@
+Content-Type: multipart/related; start=<op.mhtml.1359536455890.2164052e5139bb9c@192.168.5.74>; boundary=----------gfYElCaD6LmMcbsJqtc2dr
+Content-Location: http://www.opendebug.cn/article/562006
+Subject: =?utf-8?Q?android=E8=B7=9FiOS=E5=B9=B3=E5=8F=B0=E7=9A=84=E5=B4=A9=E6=BA=83=E6=8D=95=E8=8E=B7=E5=92=8C=E6=94=B6=E9=9B=86=20-=20=E7=A8=8B=E5=BA=8F=E9=94=99=E8=AF=AF=EF=BC=8C=E8=B0=83=E8=AF=95=E5=8A=9E=E6=B3=95=EF=BC=8C=E8=A7=A3=E5=86=B3=E6=96=B9=E6=A1=88=20-=20OpenDebug.cn?=
+MIME-Version: 1.0
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline; filename=562006.htm
+Content-Type: text/html; charset=utf-8; name=562006.htm
+Content-ID: <op.mhtml.1359536455890.2164052e5139bb9c@192.168.5.74>
+Content-Location: http://www.opendebug.cn/article/562006
+Content-Transfer-Encoding: 8bit
+
+<!doctype html public "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>android跟iOS平台的崩溃捕获和收集 - 程序错误，调试办法，解决方案 - OpenDebug.cn </title>
+<META NAME="description" CONTENT="android跟iOS平台的崩溃捕获和收集 调试方法问与答，优质全面的软件错误调试办法解决方案。 ">
+<META NAME="keywords" CONTENT="android跟iOS平台的崩溃捕获和收集, 软件错误,调试办法,解决方案,溢出,报错,调试,程序源代码,开源程序, 开源工程, 开发，分享，搜索, 下载, source codes, opensource, c++, python, java, perl, visual C++, c#, visual basic, javascript, c language, programming, download ">
+<link href="/style.css" rel="stylesheet" type="text/css">
+<!--[if IE]><script src="/html5.js"></script><![endif]-->
+<script type="text/javascript" src="/misc.js"></script>
+</head>
+
+<body>
+
+
+
+<div id="wrapper">
+  <header>
+    <div id="topmenu">
+       <div id="topmenuleft">
+         <div id="topMenu" class="ddsmoothmenu">
+		   <ul id="menu-%e9%a1%b6%e9%83%a8%e8%8f%9c%e5%8d%95" class="menu">
+		     <li id="menu-item-2288" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-2288">
+		      <a href="/">首页</a></li>
+             <li id="menu-item-2289" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2289">
+		      <a href="mailto:support@opendebug.cn">联系我们</a></li>
+           </ul>
+		 </div>		 
+       </div> <!-- topmenuleft -->
+	   <div id="topmenuright">
+		 <ul>          
+							<li class='userlink'><a href="/login">登录 / 注册</a></li>
+				
+			
+
+            <li class="rssnav"><a href="/">RSS</a></li>
+            <li>Language/语言:</li>
+			<li><a href="http://www.opendebug.com/" onclick="window.location.href = window.location.href.replace(/opendebug.cn/i, 'opendebug.com');return false;"><img border=0 src="/images/country_icons_large/us.png" width=28 style='margin-top:-5px;'></a></li>
+			<li><a href="http://www.opendebug.cn" onclick="window.location.href = window.location.href.replace(/opendebug.com/i, 'opendebug.cn');return false;"><img border=0 src="/images/country_icons_large/cn.png" width=28 style='margin-top:-5px;'></a> </li>
+          </ul>
+        </div> <!-- topmenuright-->
+	 </div> <!-- topmenu -->
+
+     <div id="logowrap">
+	   <div id="logo"><a style="text-decoration:none" href="http://www.opendebug.cn"> <!--<img src="" alt="opendebug.com" />-->
+	      <H1 style="font-size:30px;;margin-bottom:10px;">OpenDebug.cn</H1></a>
+		  <p><b>开源调试网</b> - 程序错误，调试办法，解决方案 </p>
+	   </div> <!-- logohead -->
+	   <div id="logohead">
+          <div id="headad"></div>
+          <div id="twfb">
+		     <ul>  
+			 <li>
+			    <form method="POST" id="footersearch" name="footersearch" action="/">
+					<input type="text" name="q" value="" onblur="if(this.value=='') this.value='请输入关键字';" onfocus="if(this.value=='请输入关键字') this.value='';" id="s" />
+					<input type="submit" value=" " id="searchsubmit" />
+				</form>    
+			 </li>
+			 </ul>
+		  </div>
+       </div> <!-- logohead -->
+	 </div> <!-- logowrap -->
+
+
+	 <nav>
+		<div id="navigation">
+			<div id="nav" class="ddsmoothmenu1">
+			<ul id="menu-nav" class="menu">
+			<!--<li><a href="/s/0/proglang__1">C</a></li>-->
+			<li><a href="/s/0/proglang__4">C/C++</a></li>
+			<li><a href="/s/0/proglang__6">C#</a></li>
+			<li><a href="/s/0/proglang__2">Java</a></li>
+			<li><a href="/s/0/proglang__5">VB</a></li>
+			<li><a href="/s/0/proglang__20">Matlab</a></li>
+			<li><a href="/s/0/proglang__3">PHP</a></li>
+			<li><a href="/s/0/proglang__37">ASP</a></li>
+			<li><a href="/s/0/proglang__7">Python</a></li>
+			<li><a href="/s/0/proglang__8">Perl</a></li>
+			<li><a href="/s/0/proglang__11">Ruby</a></li>
+			<li><a href="/s/0/proglang__9">Delphi</a></li>
+			<li><a href="/s/0/proglang__10">JavaScript</a></li>
+			<li><a href="/s/0/proglang__12">Objective-C</a></li>
+			<li><a href="/s/0/proglang__17">Pascal</a></li>
+			<li><a href="/s/0/proglang__29">Fortran</a></li>
+			</ul>
+			</div>
+		</div>
+	  </nav>
+
+  </header>
+
+<script>
+//set the default value of query input box
+if (document.footersearch.q.value == '') {
+	document.footersearch.q.value= '请输入关键字';
+}
+</script>
+
+
+  <section>
+  <!--
+  <div id="headgal">
+    <div id="featured" style="padding-left: 14px !important;">
+    </div>
+  </div>
+  -->
+  <div id="content_left">	 
+    <!--<div id="indextop">	 </div>-->
+    <div id="homepost">
+
+
+		<div style='width:800px;margin-left:auto;margin-right:auto;' align=center>		
+			<H2>android跟iOS平台的崩溃捕获和收集</H2>
+		</div>
+		<br>
+		<div style='width:800px;margin-left:auto;margin-right:auto;' align=center>		
+			 <img width=32 border=0 src='/images/category/java64.png' title='Java 开发 - Java Development'>&nbsp; <span id='cathome'><a href='/s/0/Java-Development' title='Java Development' target=_blank>Java 开发</a></span>  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  <span id='taggreen'><a href='/s/0/proglang__0' title='All'>All</a></span> &nbsp;&nbsp;&nbsp;&nbsp; <img width=32 border=0 src='/images/reply.png' title='Replies'> <span id='tagblue'><a href='/article/562006' title='replies'>0 个回复</a></span> &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp; 
+			<br>
+			
+			<br>
+			
+			<a href="/article/562006/fav"><img border=0 src="/images/bookmark.gif"> 加入我的收藏</a>
+			<br>
+			
+		</div>
+		<br>
+		<div style='width:800px;margin-left:auto;margin-right:auto;' align=left>			
+					<!-- No ads. -->
+	
+
+
+
+			<br>
+			<br>
+			<br>
+android和iOS平台的崩溃捕获和收集<br>&nbsp; &nbsp; &nbsp; &nbsp; 通过崩溃捕获和收集，可以收集到已发布应用（游戏）的异常，以便开发人员发现和修改bug，对于提高软件质量有着极大的帮助。本文介绍了iOS和android平台下崩溃捕获和收集的原理及步骤，不过如果是个人开发应用或者没有特殊限制的话，就不用往下看了，直接把友盟sdk（一个统计分析sdk）加入到工程中就万事大吉了，其中的错误日志功能完全能够满足需求，而且不需要额外准备接收服务器。 &nbsp;但是如果你对其原理更感兴趣，或者像我一样必须要兼容公司现有的bug收集系统，那么下面的东西就&#20540;得一看了。
+<p>&nbsp; &nbsp; &nbsp; &nbsp;要实现崩溃捕获和收集的困难主要有这么几个：</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;1、如何捕获崩溃（比如c&#43;&#43;常见的野指针错误或是内存读写越界，当发生这些情况时程序不是异常退出了吗，我们如何捕获它呢）</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;2、如何获取堆栈信息（告诉我们崩溃是哪个函数，甚至是第几行发生的，这样我们才可能重现并修改问题）</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;3、将错误日志上传到指定服务器（这个最好办）</p>
+<p><br>
+</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 我们先进行一个简单的综述。会引发崩溃的代码本质上就两类，一个是c&#43;&#43;语言层面的错误，比如野指针，除零，内存访问异常等等；另一类是未捕获异常（Uncaught Exception），iOS下面最常见的就是objective-c的NSException（通过@throw抛出，比如，NSArray访问元素越界），android下面就是java抛出的异常了。这些异常如果没有在最上层try住，那么程序就崩溃了。 &nbsp;无论是iOS还是android系统，其底层都是unix或者是类unix系统，对于第一类语言层面的错误，可以通过信号机制来捕获（signal或者是sigaction，不要跟qt的信号插槽弄混了），即任何系统错误都会抛出一个错误信号，我们可以通过设定一个回调函数，然后在回调函数里面打印并发送错误日志。</p>
+<p>&nbsp; &nbsp; &nbsp; 一、iOS平台的崩溃捕获和收集</p>
+<p>1、设置开启崩溃捕获</p>
+<p></p>
+<pre name="code" class="cpp">static int s_fatal_signals[] = {
+    SIGABRT,
+    SIGBUS,
+    SIGFPE,
+    SIGILL,
+    SIGSEGV,
+    SIGTRAP,
+	SIGTERM,
+	SIGKILL,
+};
+
+static const char* s_fatal_signal_names[] = {
+	&quot;SIGABRT&quot;,
+	&quot;SIGBUS&quot;,
+	&quot;SIGFPE&quot;,
+	&quot;SIGILL&quot;,
+	&quot;SIGSEGV&quot;,
+	&quot;SIGTRAP&quot;,
+	&quot;SIGTERM&quot;,
+	&quot;SIGKILL&quot;,
+};
+
+static int s_fatal_signal_num = sizeof(s_fatal_signals) / sizeof(s_fatal_signals[0]);
+
+void InitCrashReport()
+{
+        // 1     linux错误信号捕获
+	for (int i = 0; i &lt; s_fatal_signal_num; ++i) {
+		signal(s_fatal_signals[i], SignalHandler);
+	}
+	
+        // 2      objective-c未捕获异常的捕获
+	NSSetUncaughtExceptionHandler(&amp;HandleException);
+}</pre>
+<p>在游戏的最开始调用InitCrashReport()函数来开启崩溃捕获。 &nbsp;注释1处对应上文所说的第一类崩溃，注释2处对应objective-c（或者说是UIKit Framework）抛出但是没有被处理的异常。</p>
+<p>2、打印堆栈信息</p>
+<p></p>
+<pre name="code" class="cpp">+ (NSArray *)backtrace
+{
+	void* callstack[128];
+	int frames = backtrace(callstack, 128);
+	char **strs = backtrace_symbols(callstack, frames);
+	
+	int i;
+	NSMutableArray *backtrace = [NSMutableArray arrayWithCapacity:frames];
+	for (i = kSkipAddressCount;
+		 i &lt; __min(kSkipAddressCount + kReportAddressCount, frames);
+		 ++i) {
+	 	[backtrace addObject:[NSString stringWithUTF8String:strs[i]]];
+	}
+	free(strs);
+	
+	return backtrace;
+}
+</pre><br>
+幸好，苹果的iOS系统支持backtrace，通过这个函数可以直接打印出程序崩溃的调用堆栈。优点是，什么符号函数表都不需要，也不需要保存发布出去的对应版本，直接查看崩溃堆栈。缺点是，不能打印出具体哪一行崩溃，很多问题知道了是哪个函数崩的，但是还是查不出是因为什么崩的<img alt="大哭" src="/attached/images/20130104/20130104214940_54124.gif">
+<p></p>
+<p>3、日志上传，这个需要看实际需求，比如我们公司就是把崩溃信息http post到一个php服务器。这里就不多做声明了。</p>
+<p>4、技巧---崩溃后程序保持运行状态而不退出</p>
+<p></p>
+<pre name="code" class="cpp">CFRunLoopRef runLoop = CFRunLoopGetCurrent();
+	CFArrayRef allModes = CFRunLoopCopyAllModes(runLoop);
+	
+	while (!dismissed)
+	{
+		for (NSString *mode in (__bridge NSArray *)allModes)
+		{
+			CFRunLoopRunInMode((__bridge CFStringRef)mode, 0.001, false);
+		}
+	}
+	
+	CFRelease(allModes);</pre><br>
+在崩溃处理函数上传完日志信息后，调用上述代码，可以重新构建程序主循环。这样，程序即便崩溃了，依然可以正常运行（当然，这个时候是处于不稳定状态，但是由于手持游戏和应用大多是短期操作，不会有挂机这种说法，所以稳定与否就无关紧要了）。玩家甚至感受不到崩溃。
+<p></p>
+<p>这里要在说明一个感念，那就是“可重入（<span style="font-family:sans-serif; font-size:15px; line-height:22.066667556762695px">reentrant</span>）”。简单来说，当我们的崩溃回调函数是可重入的时候，那么再次发生崩溃的时候，依然可以正常运行这个新的函数；但是如果是不可重入的，则无法运行（这个时候就彻底死了）。要实现上面描述的效果，并且还要保证回调函数是可重入的几乎不可能。所以，我测试的结果是，objective-c的异常触发多少次都可以正常运行。但是如果多次触发错误信号，那么程序就会卡死。
+ &nbsp;所以要慎重决定是否要应用这个技巧。</p>
+<p><br>
+</p>
+<p>二、android崩溃捕获和收集</p>
+<p>1、android开启崩溃捕获</p>
+<p>&nbsp; &nbsp; &nbsp; 首先是java代码的崩溃捕获，这个可以仿照最下面的完整代码写一个UncaughtExceptionHandler，然后在所有的Activity的onCreate函数最开始调用<br>
+<br>
+<span style="white-space:pre"></span>Thread.setDefaultUncaughtExceptionHandler(new UncaughtExceptionHandler(this));</p>
+<p>&nbsp; &nbsp; &nbsp; 这样，当发生崩溃的时候，就会自动调用UncaughtExceptionHandler的public void uncaughtException(Thread thread, Throwable exception)函数，其中的exception包含堆栈信息，我们可以在这个函数里面打印我们需要的信息，并且上传错误日志</p>
+<p>&nbsp; &nbsp; 然后是重中之重，jni的c&#43;&#43;代码如何进行崩溃捕获。</p>
+<p></p>
+<pre name="code" class="cpp">void InitCrashReport()
+{
+	CCLOG(&quot;InitCrashReport&quot;);
+
+    // Try to catch crashes...
+    struct sigaction handler;
+    memset(&amp;handler, 0, sizeof(struct sigaction));
+
+    handler.sa_sigaction = android_sigaction;
+    handler.sa_flags = SA_RESETHAND;
+
+#define CATCHSIG(X) sigaction(X, &amp;handler, &amp;old_sa[X])
+    CATCHSIG(SIGILL);
+    CATCHSIG(SIGABRT);
+    CATCHSIG(SIGBUS);
+    CATCHSIG(SIGFPE);
+    CATCHSIG(SIGSEGV);
+    CATCHSIG(SIGSTKFLT);
+    CATCHSIG(SIGPIPE);
+}</pre>通过singal的设置，当崩溃发生的时候就会调用android_sigaction函数。这同样是linux的信号机制。 此处设置信号回调函数的代码跟iOS有点不同，这个只是同一个功能的两种不同写法，没有本质区别。有兴趣的可以google下两者的区别。
+<p></p>
+<p>2、打印堆栈</p>
+<p>&nbsp; &nbsp; &nbsp; java语法可以直接通过exception获取到堆栈信息，但是jni代码不支持backtrace，那么我们如何获取堆栈信息呢？ &nbsp; &nbsp;这里有个我想尝试的新方法，就是使用google breakpad，貌&#20284;它现在完整的跨平台了（支持windows, mac, linux, iOS和android等），它自己实现了一套minidump，在android上面限制会小很多。 &nbsp;但是这个库有些大，估计要加到我们的工程中不是一件非常容易的事，所以我们还是使用了简洁的“传统”方案。 思路是，当发生崩溃的时候，在回调函数里面调用一个我们在Activity写好的静态函数。在这个函数里面通过执行命令获取logcat的输出信息（输出信息里面包含了jni的崩溃地址），然后上传这个崩溃信息。
+ &nbsp;当我们获取到崩溃信息后，可以通过arm-linux-androideabi-addr2line（具体可能不是这个名字，在android ndk里面搜索*addr2line，找到实际的程序）解析崩溃信息。</p>
+<p>&nbsp; &nbsp; &nbsp; jni的崩溃回调函数如下：</p>
+<p></p>
+<pre name="code" class="cpp">void android_sigaction(int signal, siginfo_t *info, void *reserved)
+{
+	if (!g_env)	{
+		return;
+	}
+
+    jclass classID = g_env-&gt;FindClass(CLASS_NAME);
+    if (!classID) {
+    	return;
+    }
+
+    jmethodID methodID = g_env-&gt;GetStaticMethodID(classID, &quot;onNativeCrashed&quot;, &quot;()V&quot;);
+    if (!methodID) {
+        return;
+    }
+
+    g_env-&gt;CallStaticVoidMethod(classID, methodID);
+
+    old_sa[signal].sa_handler(signal);
+}</pre><br>
+可以看到，我们仅仅是通过jni调用了java的一个函数，然后所有的处理都是在java层面完成。
+<p></p>
+<p>java对应的函数实现如下：</p>
+<p></p>
+<pre name="code" class="java">public static void onNativeCrashed() {
+        // http://stackoverflow.com/questions/1083154/how-can-i-catch-sigsegv-segmentation-fault-and-get-a-stack-trace-under-jni-on-a
+		Log.e(&quot;handller&quot;, &quot;handle&quot;);
+        new RuntimeException(&quot;crashed here (native trace should follow after the Java trace)&quot;).printStackTrace();
+        s_instance.startActivity(new Intent(s_instance, CrashHandler.class));
+    }</pre><br>
+我们开启了一个新的activity，因为当jni发生崩溃的时候，原始的activity可能已经结束掉了。 &nbsp;这个新的activity实现如下：
+<p></p>
+<p></p>
+<pre name="code" class="java">public class CrashHandler extends Activity
+{
+    public static final String TAG = &quot;CrashHandler&quot;;
+    protected void onCreate(Bundle state)
+    {
+        super.onCreate(state);
+        setTitle(R.string.crash_title);
+        setContentView(R.layout.crashhandler);
+        TextView v = (TextView)findViewById(R.id.crashText);
+        v.setText(MessageFormat.format(getString(R.string.crashed), getString(R.string.app_name)));
+        final Button b = (Button)findViewById(R.id.report),
+              c = (Button)findViewById(R.id.close);
+        b.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                final ProgressDialog progress = new ProgressDialog(CrashHandler.this);
+                progress.setMessage(getString(R.string.getting_log));
+                progress.setIndeterminate(true);
+                progress.setCancelable(false);
+                progress.show();
+                final AsyncTask task = new LogTask(CrashHandler.this, progress).execute();
+                b.postDelayed(new Runnable(){
+                    public void run(){
+                        if (task.getStatus() == AsyncTask.Status.FINISHED)
+                            return;
+                        // It's probably one of these devices where some fool broke logcat.
+                        progress.dismiss();
+                        task.cancel(true);
+                        new AlertDialog.Builder(CrashHandler.this)
+                            .setMessage(MessageFormat.format(getString(R.string.get_log_failed), getString(R.string.author_email)))
+                            .setCancelable(true)
+                            .setIcon(android.R.drawable.ic_dialog_alert)
+                            .show();
+                    }}, 3000);
+            }});
+        c.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                finish();
+            }});
+    }
+
+    static String getVersion(Context c)
+    {
+        try {
+            return c.getPackageManager().getPackageInfo(c.getPackageName(),0).versionName;
+        } catch(Exception e) {
+            return c.getString(R.string.unknown_version);
+        }
+    }
+}
+
+class LogTask extends AsyncTask&lt;Void, Void, Void&gt;
+{
+    Activity activity;
+    String logText;
+    Process process;
+    ProgressDialog progress; 
+
+    LogTask(Activity a, ProgressDialog p) {
+        activity = a;
+        progress = p;
+    }
+
+    @Override
+    protected Void doInBackground(Void... v) {
+        try {
+        	Log.e(&quot;crash&quot;, &quot;doInBackground begin&quot;);
+            process = Runtime.getRuntime().exec(new String[]{&quot;logcat&quot;,&quot;-d&quot;,&quot;-t&quot;,&quot;500&quot;,&quot;-v&quot;,&quot;threadtime&quot;});
+            logText = UncaughtExceptionHandler.readFromLogcat(process.getInputStream());
+        	Log.e(&quot;crash&quot;, &quot;doInBackground end&quot;);
+        } catch (IOException e) {
+            e.printStackTrace();
+            Toast.makeText(activity, e.toString(), Toast.LENGTH_LONG).show();
+        }
+        return null;
+    }
+
+    @Override
+    protected void onCancelled() {
+    	Log.e(&quot;crash&quot;, &quot;onCancelled&quot;);
+        process.destroy();
+    }
+
+    @Override
+    protected void onPostExecute(Void v) {
+    	Log.e(&quot;crash&quot;, &quot;onPostExecute&quot;);
+        progress.setMessage(activity.getString(R.string.starting_email));
+        UncaughtExceptionHandler.sendLog(logText, activity);
+        progress.dismiss();
+        activity.finish();
+        Log.e(&quot;crash&quot;, &quot;onPostExecute over&quot;);
+    }</pre>
+<p></p>
+<p>最主要的地方是doInBackground函数，这个函数通过logcat获取了崩溃信息。 不要忘记在AndroidManifest.xml添加读取LOG的权限</p>
+<p></p>
+<pre name="code" class="html">&lt;uses-permission android:name=&quot;android.permission.READ_LOGS&quot; /&gt;</pre><br>
+3、获取到错误日志后，就可以写到sd卡（同样不要忘记添加权限），或者是上传。 &nbsp;代码很容易google到，不多说了。 &nbsp;最后再说下如何解析这个错误日志。
+<p></p>
+<p>我们在获取到的错误日志中，可以截取到如下信息：</p>
+<p><pre name="code" class="plain">12-12 20:41:31.807 24206 24206 I DEBUG   : 
+12-12 20:41:31.847 24206 24206 I DEBUG   :          #00  pc 004931f8  /data/data/org.cocos2dx.wing/lib/libhelloworld.so
+12-12 20:41:31.847 24206 24206 I DEBUG   :          #01  pc 005b3a5e  /data/data/org.cocos2dx.wing/lib/libhelloworld.so
+12-12 20:41:31.847 24206 24206 I DEBUG   :          #02  pc 005aab68  /data/data/org.cocos2dx.wing/lib/libhelloworld.so
+12-12 20:41:31.847 24206 24206 I DEBUG   :          #03  pc 005ad8aa  /data/data/org.cocos2dx.wing/lib/libhelloworld.so
+12-12 20:41:31.847 24206 24206 I DEBUG   :          #04  pc 005924a4  /data/data/org.cocos2dx.wing/lib/libhelloworld.so
+12-12 20:41:31.847 24206 24206 I DEBUG   :          #05  pc 005929b6  /data/data/org.cocos2dx.wing/lib/libhelloworld.so</pre><br>
+<pre name="code" class="plain">004931f8</pre>这个就是我们崩溃函数的地址， &nbsp;libhelloworld.so就是崩溃的动态库。我们要使用addr2line对这个动态库进行解析（注意要是obj/local目录下的那个比较大的，含有符号文件的动态库，不是Libs目录下比较小的，同时发布版本时，这个动态库也要保存好，之后查log都要有对应的动态库）。命令如下：</p>
+<p>arm-linux-androideabi-addr2line.exe -e 动态库名称 &nbsp;崩溃地址<br>
+</p>
+<p>例如：</p>
+<p><pre name="code" class="plain">$ /cygdrive/d/devandroid/android-ndk-r8c-windows/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/windows/bin/arm-linux-androideabi-addr2line.exe -e obj/local/armeabi-v7a/libhelloworld.so 004931f8</pre>得到的结果就是哪个cpp文件第几行崩溃。 &nbsp;如果动态库信息不对，返回的就是 ?:0</p>
+<p><br>
+<br>
+</p>
+<p></p>
+<p><br>
+</p>
+			<!-- Baidu Button BEGIN -->
+			<div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
+				<a class="bds_qzone"></a>
+				<a class="bds_tsina"></a>
+				<a class="bds_tqq"></a>
+				<a class="bds_renren"></a>
+				<a class="bds_douban"></a>
+				<a class="bds_tieba"></a>
+				<span class="bds_more">更多</span>
+				<a class="shareCount"></a>
+			</div>
+			<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=695808" ></script>
+			<script type="text/javascript" id="bdshell_js"></script>
+			<script type="text/javascript">
+			document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+			</script>
+			<!-- Baidu Button END -->
+
+			<br>
+			<br>
+					<!-- No ads. -->
+	
+
+
+
+		</div>
+
+	
+		<br>		
+		<div style='width:800px;margin-left:auto;margin-right:auto;' align=left>	
+		<div id="sidebartitlewrapper"><h4>相关问题</h4></div>
+		<br>
+				<!-- No ads. -->
+	
+
+
+
+		<div class="sectioncont">br
+android和iOS� - did not match any materials.</div>
+
+		</div> <!-- center width=800 -->
+
+
+
+	</div> <!-- homepost -->
+
+
+</div> <!-- content -->
+
+   <aside_right>	
+	<!--<div id='aside_content'> 		-->
+	<div id='sidebar'>
+
+		<div class='section'>
+			<div class="sectioncont">
+						<!-- No ads. -->
+	
+
+			</div>			
+		</div>
+
+
+		 <div class='section'> <!-- User section -->							 
+			 				
+					<div id="sidebartitlewrapper"><h4>用户登录</h4></div>
+					 <div class="sectioncont">
+						<form name="login" method="post" action="/login" >		
+						<dl>
+							<dt><label for="email">用户 ID (E-mail):</label></dt>
+							<dd><input type="text" name="email" id="email" value=""/></dd>
+							<dt><label for="password">密码:</label></dt>
+							<dd><input type="password" name="password" id="password" value=""/></dd>
+							<dt><label for="captcha">验证码:</label><dt>
+							<dd valign=top><input type="text" name="captcha" id="captcha"/> <img style='margin-bottom:-10px;'; width=90 src="/captcha" alt="Captcha" title="Captcha security image"/></dd>
+							<p/>
+							<dd><input type="submit" value="提交"/> &nbsp;&nbsp; <a href="/login">新用户注册</a></dd>
+						</dl>
+						</form>	
+					</div> <!-- login -->
+
+				
+			
+			 
+		</div> <!-- User section -->
+
+		<div class='section'>
+			<div id="sidebartitlewrapper"><h4>趣味投票</h4></div>
+			<div class="sectioncont">
+				<script>
+
+var pollid=6;
+var r = Math.random();
+if (r < 0.25)
+	pollid = 5;
+else if (r < 0.5)
+	pollid = 9;
+else if (r < 0.75)
+	pollid = 11;
+else 
+	pollid = 13;
+
+
+document.write("<iframe src='http://poll.codeforge.cn/poll/iframe.php?pollId="+pollid+"' scrolling='no' frameborder='0' width='290' height='1000'></iframe>");
+
+
+</script>
+
+
+			</div>
+			
+		</div>
+
+	</div> <!-- sidebar aside_content -->
+  </aside_right> <!-- aside -->
+
+</section>
+
+
+<br>
+
+
+<br>
+
+
+
+
+
+</div><!-- #wrapper -->
+
+
+
+
+
+<footer>
+
+  <div id="footer1">
+    <div id="footerwrapper1">
+	  <div id="fsidebar1"></div>
+      <div id="fsidebar2"></div> 
+      <div id="fsidebar3"></div>   
+      <div id="fsidebar4">
+	    <div class="widget">
+          <ul>
+  		   <h3>
+           <p><a href="mailto:support@opendebug.com">联系我们</a> | <a href="mailto:support@opendebug.com">在本站做广告</a></p>
+		   </h3>
+		  </ul>
+        </div>
+      </div>
+	  <div style="clear: both;"> </div> 
+     </div> <!-- fsidebar4 -->
+  </div> <!-- footer1 -->
+
+
+
+
+  <div id="footer2">
+    <div id="footerwrapper2"> 
+      <div id="fotnav">
+		 	<ul id="fnav">  
+			<center>  </center>	
+			</ul> 
+       </div> <!-- fotnav -->
+	   <div id="fotbot">
+          <div class="fotlogoleft"> 
+		    <div class="fotcopy">   
+              <div id="copyright">			     
+			    <p><a href="">OpenDebug.cn</a>  is powered by <a href="http://www.opendebug.com/">OpenDebug Dev Team</a>  &nbsp; Elapsed:6.805ms</p>
+              </div>
+			</div> 
+
+          </div> <!-- fotbot -->
+		  <div class="fotlogoright">
+		    <ul id="skyline"> 
+               <li id="pad1"> </li>
+               <li>
+					<form method="POST" id="footersearch" name="footersearch2" action="/">
+					<input type="text" name="q" value="" onblur="if(this.value=='') this.value='请输入关键字';" onfocus="if(this.value=='请输入关键字') this.value='';" id="s" />
+					<input type="submit" value=" " id="searchsubmit" />
+					</form>              
+               </li> 
+		    </ul>
+          </div> <!-- fotlogoright -->
+		  <div id="cb">
+		  </div>
+       </div> <!-- fotbot -->
+
+	</div> <!-- footerwrapper2-->
+  </div> <!-- footer2 -->
+
+
+
+</footer>
+
+
+<script>
+//set the default value of query input box
+if (document.footersearch2.q.value == '') {
+	document.footersearch2.q.value= '请输入关键字';
+}
+</script>
+
+
+
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F53b14f45870621e313775125238a9131' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!--
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1833997-37']);
+  _gaq.push(['_setDomainName', 'opendebug.cn']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+-->
+
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=8539438; 
+var sc_invisible=0; 
+var sc_security="638b5e7f"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost +
+"statcounter.com/counter/counter.js'></"+"script>");</script>
+<noscript><div class="statcounter"><a title="web statistics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/8539438/0/638b5e7f/0/"
+alt="web statistics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+</body>
+</html>
+
+
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline
+Content-Type: image/png
+Content-Location: http://www.opendebug.cn/images/bodybg.png
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAACACAIAAACN9351AAAABGdBTUEAAK/INwWK
+6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABPSURBVHja
+7NcxDcAwDADBtMpmDuHPLjICpxS8Vcr9fgB+rrVGp3c0AwAAAK4AT1UBAAAAAAAA
+AAD8A8y9dw9kZg9ERA98WUsAAO4CR4ABAEU+zCpQamiTAAAAAElFTkSuQmCC
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline
+Content-Type: image/png
+Content-Location: http://www.opendebug.cn/images/searchbg.png
+Content-Transfer-Encoding: Base64
+
+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
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline
+Content-Type: image/png
+Content-Location: http://www.opendebug.cn/images/h3bg.png
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAAS0AAAAkCAIAAABT+fvFAAAABGdBTUEAAK/INwWK
+6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAF3SURBVHja
+7NlPKwRhHMDxeWZHxipzcXKRVtqWLLEtSXKwQlbc5eCwOciLoZy8BnHwDhzkvm1R
+2EhKSZv5w8yu5GSt2ss8v9T38wJ+v3rqW888YzmOYwBoQ93pre0dxDHZ5HABcXQI
+0CEAOgToEAAdAnQI/C/vkwU6BCQFUyvBTJEOAbkI80t+YZN7KSB4HV3wF7f4PgTk
+Ihyf95a3495Ch8DfEWbnvNWShkV0CLT2MTrrFUt6dtEh0CrC4Wl3bcdQJh0CQhFm
+8u7GrrYI6RD4FWE6565rjZAOgWZfr6MJS/NSOgR+6Do7MqKQDgFJHZXL5PG+0ajT
+ISCaYvkieXKoM8WEbducO9AcxlPVfH0O0zk6BGRTvDNrL+HQBB0Coik+3ij/LRwc
+o0NAkvVwrQIvTGXpEBBN8f5K1aNwYIQOAdEUqxVDqag/Q4eAaIq35UZ3T9SXimM4
+/w+BdnWen8Y0mQ4BeXQI0CEAOgToEAAdAnQI4NunAAMANYBR0AOkOn4AAAAASUVO
+RK5CYII=
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline
+Content-Type: image/png
+Content-Location: http://www.opendebug.cn/images/footer2.png
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAAA4AAABxCAIAAABqXgWSAAAABGdBTUEAAK/INwWK
+6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABESURBVHja
+7M6xDQAgDANBEjFD9t80rEABguJcn+SPqhp7mxFxgWbm04Dd9x8CUBRFURRFURRF
+URRFn9PZ3efpnYAlwAAEOwpH9hqwkAAAAABJRU5ErkJggg==
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline
+Content-Type: image/png
+Content-Location: http://www.opendebug.cn/images/rss.png
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAABGdBTUEAAK/INwWK
+6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFPSURBVHja
+dNJPKERRFMfx+96GyMKCZmIzG6FkSlJSFpZSrG1kaxqs2NkpG0YWFv4sSMpishJN
+SYlSFrOalT9ZyMKf/BlEk+d79Hv1FLc+nffefefec8973kU6duuc83CNPPawm5i/
+eXD/DI+kIHJfwj0OkDUkl/5KWiTG0YCmyJxVsI0ZEs9/JQVB4C5H4xVKbEUfhjT/
+hRwmScxHd8oQH3HERE4L9GAKbbDy95FmvhAmfagRL7AyFrCFGOYwoMR1jJBY9Ll4
+1sNqtGMFs7jDGI61qCUPhju1EOvQj17Uq/RlpNChz1Cu86V+GhEOztNFyETOMq5y
+pzGBV+um7dTMRSfe9G2sg5tI4ApJfQrbpRKHvspYwgaGOegJcVXtrtE5CuqgjaSv
+msPRSIllxDW8w9rfzUJPxDO9U2VJO5GkU/1K9h8W9axW8TN86VuAAQBac2u7GVmM
+5gAAAABJRU5ErkJggg==
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline
+Content-Type: image/png
+Content-Location: http://www.opendebug.cn/images/user.png
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAAL
+EwEAmpwYAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAA
+dTAAAOpgAAA6mAAAF2+SX8VGAAACxElEQVR42mL8//8/AwgwMjIywECNBYMDLz93
+vrC4UAAzEwPDzx+/Pjx58HIDUKqw5QTDB5AamD6AAGJENwCoOUHDSGu+npkmSBlI
+JRh/fv+G4dTBSxfevvrkCDIEpg8ggFAMAGoWUFTmu29mzifA8P8fRD+IADP+MXz9
+9J1h3/7PC6oPMCTC9AEEEAsDKkgw0/8kcPX8FwZmRlYGBuafDGoqDAy8vBBJHlEG
+Bi4uhgAgMxGmASCA0A0Q+A/0iZysMIOlhSTDh8+MDNdvfmZ48vInAzPTN4a/vxkZ
+JCX+PWCABAMYAAQQugEMt+6yMwRHmjAwsAkyCAgyMFjKIUn+es9w9exNA2QDAAII
+xQA5Gd4NGlqy9QyCOkDnszNggH9/Gb7/uvMBWQgggFAMSFvz+cJpc8YPDNwyAgzM
+XJgG/P3G8O7NzwPIQgABxISu5t71lxM/PL/HwMApiYFvnTnN8OHdt4XI6gECCMOA
+lo9LHqxccprh9Y19wLj9D8dPL+5k2LXvyYXweW82IKsHCCB4OtAL2SnAxMS83kRf
+0UFZmYOB695EBguBuwyMv58zsPBrMLznt2FYfNOC4cbVFwe+ff8deGmNOzgsAAII
+HgYsbKz1DrbqDobqfGD+fZZchrcqHAyOmqIMoER67eknBl3m7wzqckIOq7dcqwcl
+a5A6gACCe4FHmL9AXI6P4RsjExiLCwsxHL3zi2HlyacMv/8yMPwBJsyfQJOEJHkZ
++MWFCmD6AAII7gJOQS6Gz8wsDGzMiEwlIibMcOvDJ4YJu+4yCHKyMLDyiDC8/8/M
+wMaLiGKAAIK74M295wdu3n/H8PIvM8NXZmaGbywsYMwtIsTwm0+C4eTTHwwfmdgY
+zt96x/D67vMLMH0AAYSSmXSDdySwcbPbC0gLOvAJcSkgh/bn998evH/y/sCvrz8P
+Xl7rsQCmDyDAACX3+P4oGppWAAAAAElFTkSuQmCC
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline
+Content-Type: image/png
+Content-Location: http://www.opendebug.cn/images/navthingy.png
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAABGdBTUEAAK/INwWK
+6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABSSURBVHja
+Yvz//z8DDsAJxOug7CAg/o5VFcgALJgNiHf9R4DtUDEMtbg0b/yPCdYBMTMhA0AK
+Vv/HDZaiG4JuwKL/hMEcXAbM/E88mADTBxBgAKlZGKLGhr9IAAAAAElFTkSuQmCC
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline; filename=style.css
+Content-Type: text/css; name=style.css
+Content-Location: http://www.opendebug.cn/style.css
+Content-Transfer-Encoding: Quoted-Printable
+
+/*
+*/
+*{margin:0;padding:0}header,nav,section,article,aside_left,aside_right,f=
+ooter{display:block}body{font:13px/18px "Trebuchet MS",Tahoma,Arial,sans=
+-serif;color:#444;  background:#EDEDED url(images/bodybg.png) repeat-x}:=
+:-moz-selection{background:#008CB6;color:#fff}::selection{background:#4C=
+B8D8;color:#fff}a{color:#C60000}a:hover{color:#AA0001}p{margin:0 0 25px}=
+img{border:0;padding:0px}input{vertical-align:middle}blockquote{margin:0=
+ 0 18px 20px;padding:1px 12px;border-left:3px solid #DE8D8D;background:#=
+F2F2F2;height:1%}blockquote p{padding:8px 0;margin:0}.aligncenter,div.al=
+igncenter{display:block;margin:0 auto}img.aligncenter{margin:0 auto}.ali=
+gnleft{float:left}img.alignleft{margin:5px 10px 3px 0}.alignright{float:=
+right}img.alignright{margin:5px 0 3px 10px}.wp-caption{border:1px solid =
+#ddd;text-align:center;background-color:#f3f3f3;padding-top:4px;margin:1=
+0px}.wp-caption img{margin:0;padding:0;border:0 none}.wp-caption p.wp-ca=
+ption-text{font-size:11px;line-height:17px;padding:0 4px 5px;margin:0}ta=
+ble{width:99%;margin:0 0 20px 3px        ;border-collapse:collapse}th,td=
+{ border:1px solid #CCC;padding:4px 8px}th{ text-align:left;background:#=
+F3F3F3}pre{margin:0 0 20px}
+#wrapper{width:1070px;margin:0 auto;padding:0 10px} #cb{clear:both}heade=
+r{height:100px;border-bottom:3px solid #EAEAEA; position:relative} =
+
+#navigation{ background:#444446;margin-bottom:10px; float:left; width:10=
+0%}  #nav{ }#nav ul li{ display:inline; float:left; margin:6px; padding:=
+3px; position:relative}#nav ul li a,#topMenu ul li div{ color:#E4E4E4; d=
+isplay:block; font-family:"Droid Sans",Trebuchet MS,Tahoma,Arial,sans-se=
+rif,serif; font-size:15px; font-style:normal; font-weight:400; letter-sp=
+acing:0;  text-decoration:none; text-shadow:none; text-transform:upperca=
+se; word-spacing:0}#nav ul li div{color:#ccc;text-transform:none}#nav ul=
+ li a span{font-size:10px;color:#999;line-height:120%}#nav ul li a:hover=
+,#topMenu ul li a.selected{text-decoration:none; color:#FFF}#nav.ddsmoot=
+hmenu1{ background:none repeat scroll 0 0 #414141; font:bold 12px Verdan=
+a; width:100%}#nav.ddsmoothmenu1 ul{z-index:100;  margin:0 0 0 3px;margi=
+n:0;padding:0;list-style-type:none} #nav.ddsmoothmenu1 ul ul li a:hover{=
+background:#3B3B3B;padding-right:4px}#topMenu.ddsmoothmenu1 ul li{positi=
+on:relative;display:inline;float:left}* html #nav.ddsmoothmenu1 ul li a{=
+display:inline-block}#nav.ddsmoothmenu1 ul li ul li ul{padding-top:0px !=
+important}#nav.ddsmoothmenu1 ul li ul{padding-top:6px;background:#444446=
+;position:absolute;left:0;display:none;visibility:hidden;width:auto;bord=
+er-left:1px solid #444446;border-right:1px solid #444446;border-bottom:1=
+px solid #444446}#nav.ddsmoothmenu1 ul li ul li{float:none;display:list-=
+item;background-color:#333;margin:0px 0px 0px 0px !important;padding:0px=
+ !important}#nav.ddsmoothmenu1 ul li ul li a,#nav.ddsmoothmenu1 ul li ul=
+ li a:hover{text-align:left;margin:0;padding:12px 0 12px 25px;line-heigh=
+t:100%;width:168px;height:1%; text-transform:none;font-size:13px;color:#=
+fff}#nav.ddsmoothmenu1 ul li ul li a{color:#B4E7E2}#nav.ddsmoothmenu1 ul=
+ li ul li a:hover{color:#FFF}#nav.ddsmoothmenu1 ul li ul li a.last,#nav.=
+ddsmoothmenu1 ul li ul li a.last:hover{border:none}* html #nav.ddsmoothm=
+enu1{height:1%}#nav.ddsmoothmenu1 ul li.current-menu-item { margin:6px 3=
+px; padding:3px 8px; moz-border-radius:6px; -webkit-border-radius:6px; b=
+order-radius:6px;  behavior:url(includes/border-radius.htc);background:#=
+272727;  color:#fff}#nav.ddsmoothmenu1 ul li.current-menu-item  a:hover{=
+ background:none}   .fsearchbg{   margin-left:18px}  .fsearchbg1{   marg=
+in-left:17px}  #footersearch{background:url("images/searchbg.png") no-re=
+peat;    float:left;    height:51px;    right:0;    width:292px}      #f=
+ootersearch1{background:url("images/searchbg.png") no-repeat;      heigh=
+t:51px;   margin-left:-15px; width:292px}#footersearch input{float:left;=
+font-family:Trebuchet MS;font-size:12px;text-transform:uppercase}#footer=
+search1 input{float:left;font-family:Trebuchet MS;font-size:12px;text-tr=
+ansform:uppercase}#search{background:url("images/searchbg.png") no-repea=
+t scroll 0 0 transparent;float:left;height:36px;position:absolute;right:=
+0;top:37px;width:280px}#search input{float:left;font-family:Trebuchet MS=
+;font-size:12px;text-transform:uppercase}#s{background:none repeat scrol=
+l 0 0 transparent;border:0 none;color:#606060;height:28px;margin-left:32=
+px; margin-top:7px; width:183px} #searchsubmit{ background:none repeat s=
+croll 0 0 transparent; border:0 none; color:#FFF; cursor:pointer; font-w=
+eight:bold !important; height:27px; margin-left:6px; margin-top:8px; ove=
+rflow:visible; width:57px}#searchsubmit:hover{background:none repeat scr=
+oll 0 0 transparent;filter:alpha(opacity=3D10);opacity:0.1}
+
+section{width:100%;overflow:hidden;margin-bottom:10px}
+#content{width:1000px;background:#fff;float:left;padding:6px 10px 6px 10=
+px;margin:2px 0px 5px 0px;overflow:hidden}#content h2{font-family:'Droid=
+ Serif',Georgia,Sans-serif}#content h2 a,#content h3 a,#content h1 a,#co=
+ntent h5 a,#content h4 a,#content h6 a{  text-decoration:none}#content h=
+2 a:hover{  text-decoration:underline}
+
+#content h3{font-family:'Droid Serif',Georgia,Sans-serif;  font-size:20p=
+x;   text-decoration:none;       font-weight:normal;line-height:24px; ma=
+rgin-bottom:8px;}
+
+#content .post{padding:5px 0 14px 1px;   margin-bottom:8px;    border-bo=
+ttom:#ddd 1px dashed} #content .post h2{      color:#292826;        font=
+-size:38px;        font-weight:normal;   font-weight:700;line-height:36p=
+x; text-transform:capitalize;    color:#343638;    font-size:34px;paddin=
+g:1px 0 0 0px;    margin:1px 0 6px}#content .post h1{      color:#CF5E0A=
+;        font-size:35px; font-family:'Droid Serif',Georgia,Sans-serif;  =
+      font-weight:normal;  line-height:36px; text-transform:capitalize; =
+        font-size:32px;padding:1px 0 0 0px;    margin:1px 0 6px}#content=
+ .post h3 a:hover,#content .post h3 a:hover{ color:#00AEE1}#content .pos=
+t h3 a,#content .post h3 a{  color:#069}#content .post h3{        font-f=
+amily:'Droid Serif',Georgia,Sans-serif;       font-size:29px;   text-dec=
+oration:none;       font-weight:normal;line-height:36px;      margin:12p=
+x 0 7px}.pmeta{font-size:12px;font-family:arial,sans-serif; color:#666; =
+   margin:0 0 8px 0;    vertical-align:middle}.pmetachive{color:#666;   =
+ font-family:Verdana,sans-serif;    font-size:11px;    margin:0 0 8px;  =
+  vertical-align:middle}    .pmetachive a{color:#333;text-decoration:non=
+e}.pmeta span{  margin:0 3px}.pmeta a,.ptags a{text-transform:capitalize=
+; color:#333; text-decoration:none}.pmeta a:hover,.ptags a:hover{color:#=
+AA0001}.pmetasingle{font-size:11px;font-family:arial,sans-serif; color:#=
+666;     margin:0 0 8px 0;    vertical-align:middle}.pmetasingle span{  =
+margin:0 3px}.pmetasingle a,.ptags a{text-transform:capitalize;  text-de=
+coration:none}.pmetasingle a:hover,.pmetasingle a:hover{color:#333}
+
+.entry{  text-align:justify;font:14px/24px Georgia,"Times New Roman",Tim=
+es,serif;color:#090909}
+
+#content .entry h2,#content .entry h3,#content .entry h4,#content .entry=
+ h5,#content .entry h6{font:normal "Trebuchet MS",Arial,Sans-Serif;paddi=
+ng:0 0 4px;margin:25px 0 18px;   background:url(images/smalldot.gif) 0 1=
+00% repeat-x;border:none}
+
+#content .entry h3{font-size:20px}
+
+#content .entry h4{font-size:18px}#content .entry h5{font-size:18px;   f=
+ont-weight:normal}
+
+#content .entry h6{font-size:15px;color:#05A;font-size:28px;font-weight:=
+normal !important}.ptags{ width: 635px;font-size:12px;  line-height:16px=
+;color:#999;padding:0px;overflow:hidden} .line{clear:both;padding:3px;ma=
+rgin:0 0 15px;background:url(images/smalldot.gif) repeat-x}.post ol{marg=
+in:-4px 0 18px 35px}.post ul{margin:-4px 0 18px 18px}.post li{padding:3p=
+x 0 4px;  border-bottom:1px solid #EEE}.post ul li{list-style:none;backg=
+round:url(images/arrow.png) 0 11px no-repeat;padding:3px 0 4px 12px}.pos=
+t li ul{margin:4px 0 -5px;  border-top:1px solid #EEE}.post li ol{margin=
+:4px 0 -5px 18px;  border-top:1px solid #EEE}div.pagetitle{font:normal 1=
+9px "Trebuchet MS",Arial,Sans-Serif;padding:3px 0 4px;margin-bottom:30px=
+;border:1px solid #E5E5E5;   text-align:center;background:#F4F4F4} div.a=
+rchivetitle{font:normal 19px "Trebuchet MS",Arial,Sans-Serif;margin:13px=
+ 0 4px;margin-bottom:30px;border:1px solid #E5E5E5;   text-align:center;=
+background:#F4F4F4} .navigation{  background:url(images/smalldot.gif) re=
+peat-x;padding:15px 0 0}.navigation a{display:inline-block;width:20px;ma=
+rgin:0 2px 0 0; border:1px solid #C01D36;color:#C01D36; text-decoration:=
+none; text-align:center}.navigation a:hover{ border:1px solid #4A4A4A;co=
+lor:#4A4A4A;background:#EEE}.navigation span{display:inline-block;width:=
+20px;margin:0 2px 0 0; text-align:center}.navigation span.pages{ margin-=
+right:10px;width:auto}.navigation span.current{ border:1px solid #4A4A4A=
+;background:#888;color:#FFF}.navigation.first{background:none;padding:0}=
+.navigation.com a{margin:0 -2px 0 0}.navigation.com span.dots{margin:0 -=
+4px 0 0}.navigation.com span.current{margin:0 -2px 0 0}
+
+#content_left{width:735px;background:#fff;float:left;padding:5px 5px 5px=
+ 5px;margin:0px 0px 5px 0px;overflow:hidden}
+#content_left h2{font-family:'Droid Serif',Georgia,Sans-serif}#content_l=
+eft h2 a,#content_left h3 a,#content_left h1 a,#content_left h5 a,#conte=
+nt_left h4 a,#content_left h6 a{  text-decoration:none}#content_left h2 =
+a:hover{  text-decoration:underline}
+
+#content_left h3{font-family:'Droid Serif',Georgia,Sans-serif;  font-siz=
+e:20px;   text-decoration:none;       font-weight:normal;line-height:24p=
+x; margin-bottom:8px;}
+
+#content_right{width:650px;background:#fff;float:right;padding:6px 5px 6=
+px 5px;margin:0px 0px 5px 0px;overflow:hidden}#content_right h2{font-fam=
+ily:'Droid Serif',Georgia,Sans-serif}#content_right h2 a,#content_right =
+h3 a,#content_right h1 a,#content_right h5 a,#content_right h4 a,#conten=
+t_right h6 a{  text-decoration:none}#content_right h2 a:hover{  text-dec=
+oration:underline}#content_right h3{      color:#292826;    font-family:=
+'Droid Serif',Georgia,Sans-serif;       font-size:26px;   text-decoratio=
+n:none;       font-weight:normal;line-height:36px;      color:#343638;  =
+  font-size:36px}
+
+aside_left{float:left;width:312px;font-size:12px; padding:0 0 0 0px} =
+
+aside_left ul{margin:0 0 15px}aside_left li{list-style:none;border-botto=
+m:1px solid #EEE;padding:4px 12px 4px 12px;margin:0;background:url(image=
+s/arrow.png) 3px 9px no-repeat}aside_left li ul{  margin:0 0 2px}aside_l=
+eft li li{  padding:3px 0 0 12px;border:none}aside_left a{color:#121212;=
+  text-decoration:none}aside_left a:hover{  text-decoration:underline}
+aside_left h3{background:url(images/h3bg.png) no-repeat;width:301px;padd=
+ing:0 0 0 8px;line-height:35px; display:block;font-weight:normal;color:#=
+e9e9e9;font-family:"Droid Sans",Helvetica,Arial,sans-serif;font-size:1.5=
+em; text-transform:capitalize}
+aside_right ul{margin:0 0 15px}aside_right li{list-style:none;border-bot=
+tom:1px solid #EEE;padding:4px 12px 4px 12px;margin:0;background:url(ima=
+ges/arrow.png) 3px 9px no-repeat}aside_right li ul{  margin:0 0 2px}asid=
+e_right li li{  padding:3px 0 0 12px;border:none}aside_right a{color:#12=
+1212;  text-decoration:none}aside_right a:hover{  text-decoration:underl=
+ine}
+aside_right h3{background:url(images/h3bg.png) no-repeat;width:301px;pad=
+ding:0 0 0 8px;line-height:35px; display:block;font-weight:normal;color:=
+#e9e9e9;font-family:"Droid Sans",Helvetica,Arial,sans-serif;font-size:1.=
+5em; text-transform:capitalize}
+
+#aside_content{float:left;width:302px;background:#fff;padding:0 0 0 0px}=
+
+/* change width at the same time, sidebar_width is for IE*/
+aside_right{float:right;width:312px;font-size:12px; padding:0 0 0 0px} =
+
+#sidebar{float:right;width:312px;padding:0 0 0 11px}
+
+.section{margin:0 0 25px;background:#fff;   -moz-box-shadow:1px 1px 2px =
+#ddd;-webkit-box-shadow:1px 1px 2px #ddd;box-shadow:1px 1px 2px #ddd}
+
+.sectioncont{padding:5px}
+
+section h4{background:url(images/h3bg.png) no-repeat;width:301px;padding=
+:0 0 0 8px;line-height:35px; display:block;font-weight:normal;color:#e9e=
+9e9;font-family:"Droid Sans",Helvetica,Arial,sans-serif;font-size:1.5em;=
+ text-transform:capitalize}
+section a{color:#069; font-family:'Droid Serif',Georgia,Sans-serif; font=
+-size:13px; text-decoration:none; font-weight:normal; text-decoration:no=
+ne}section a:hover{  text-decoration:underline}
+#tagCloud a,.widget_tag_cloud a{margin:0 4px 0 0; line-height:24px}#wp-c=
+alendar{ width:100%;margin:0 0 12px}#wp-calendar td{ text-align:center}f=
+ooter{   }#footer1{     padding:0 10px;       background:#363636}#footer=
+2{padding:0 10px;    height:113px;      background:url(images/footer2.pn=
+g) repeat-x}#footerwrapper1{     width:1000px;padding:8px 0;    margin:0=
+ auto}#footerwrapper2{      width:1000px;    margin:0 auto}    #fsidebar=
+{float:left;width:100%;padding:0 0 20px} #fsidebar1 .widget{width:550px;=
+float:left;color:#F0F0F0;line-height:19px;font-size:12px;padding:5px 12p=
+x 0 0}#fsidebar1 .widget ul{padding:0 0 0 0px}#fsidebar1 .widget li{list=
+-style:none;background:url("images/arrow.png") no-repeat scroll 3px 9px =
+transparent;padding:2px 4px 2px 13px}#fsidebar1 .widget a{color:#F0F0F0}=
+#fsidebar1 .widget h3{    background:none repeat scroll 0 0 transparent;=
+    border-bottom:1px solid #999;    color:#F0F0F0;    font-family:"Droi=
+d Sans",Helvetica,Arial,sans-serif;    font-size:17px;    font-weight:no=
+rmal;    height:22px;    margin-bottom:10px;    padding:7px 5px 0 10px; =
+   text-transform:capitalize}#fsidebar2 .widget{width:150px;float:left;c=
+olor:#F0F0F0;line-height:19px;font-size:12px;padding:5px 12px 0 0}#fside=
+bar2 .widget ul{padding:0 0 0 0px}#fsidebar2 .widget li{list-style:none;=
+background:url("images/arrow.png") no-repeat scroll 3px 9px transparent;=
+padding:2px 4px 2px 13px}#fsidebar2 .widget a{color:#F0F0F0;text-decorat=
+ion:none}#fsidebar2 .widget h3{    background:none repeat scroll 0 0 tra=
+nsparent;    border-bottom:1px solid #999;    color:#F0F0F0;    font-fam=
+ily:"Droid Sans",Helvetica,Arial,sans-serif;    font-size:17px;    font-=
+weight:normal;    height:22px;    margin-bottom:10px;    padding:7px 5px=
+ 0 10px;    text-transform:capitalize}#fsidebar3 .widget{width:150px;flo=
+at:left;color:#F0F0F0;line-height:19px;font-size:12px;padding:5px 12px 0=
+ 0}#fsidebar3 .widget ul{padding:0 0 0 0px}#fsidebar3 .widget li{list-st=
+yle:none;background:url("images/arrow.png") no-repeat scroll 3px 9px tra=
+nsparent;padding:2px 4px 2px 13px}#fsidebar3 .widget a{color:#F0F0F0;tex=
+t-decoration:none}#fsidebar3 .widget h3{    background:none repeat scrol=
+l 0 0 transparent;    border-bottom:1px solid #999;    color:#F0F0F0;   =
+ font-family:"Droid Sans",Helvetica,Arial,sans-serif;    font-size:17px;=
+    font-weight:normal;    height:22px;    margin-bottom:10px;    paddin=
+g:7px 5px 0 10px;    text-transform:capitalize}#fsidebar4 .widget{width:=
+810px;float:left;color:#F0F0F0;background:#3C3C3C;line-height:19px;font-=
+size:12px}#fsidebar4 .widget ul{   padding:2px 7px 4px;    text-align:ju=
+stify}#fsidebar4 .widget li{list-style:none;background:url("images/arrow=
+.png") no-repeat scroll 3px 9px transparent;padding:2px 4px 2px 13px}#fs=
+idebar4 .widget a{color:#F0F0F0;text-decoration:none}#fsidebar4 .widget =
+h3{       border-bottom:1px solid #999;    color:#F0F0F0;    font-family=
+:georgia,sans-serif;    font-size:16px;    font-style:italic;    font-we=
+ight:normal;    height:23px;    margin-bottom:4px;    padding:7px 2px 0 =
+10px;    text-transform:capitalize}  #topmenufot{text-align:center}   #f=
+otnav{  }#fnav{padding:18px 0 0;width:100%}#fnav li{display:inline;font-=
+family:"Droid Sans",Trebuchet MS,Tahoma,Arial,sans-serif,serif;font-size=
+:16px;font-weight:400;list-style:none outside none;text-transform:upperc=
+ase}#fnav li ul{-moz-box-shadow:1px 1px 6px rgba(0,0,0,0.5),8px 10px 10p=
+x rgba(255,255,255,0.75) inset;background:none repeat scroll 0 0 #FFF;bo=
+rder-color:-moz-use-text-color #92B8C6 #92B8C6;border-right:2px solid #9=
+2B8C6;border-style:none solid solid;border-width:medium 2px 2px;height:a=
+uto;left:-999em;margin:-47px 0 0 85px;padding:2px 70px 2px 3px;position:=
+absolute;z-index:9999}#fnav li li,#fnav li li li{border:none;margin:0px =
+0px 0px -1px}#fnav li ul a{color:#666 !important}#fnav li:hover,#fnav li=
+.sfhover{position:static}#fnav li a{color:#F1F1F1;margin:0 0px 0 11px;te=
+xt-decoration:none}#fnav li a:hover{color:#999;text-decoration:none}#fna=
+v li.current_page_item{}#fnav li.current_page_item a{color:#fdbfbf} =
+
+ #fotbot{margin: 0 auto; width: 920px;width: 920px;padding:18px 0px 0px =
+0px;color:#ddd}.fotlogoleft{float:left;margin-top:9px}.fotmenutwo{height=
+:19px}.fotcopy{}  .fotlogoright{float:right} #skyline{}#skyline ul{displ=
+ay:block;padding:0px;margin:0px;list-style:none;text-align:center}#skyli=
+ne li{height:44px;display:inline;padding:0px 6px;margin:0px;list-style:n=
+one;float:left} #panel1b a{width:200px;height:44px;background:url(images=
+/m3-footer-logo.png) no-repeat;margin:2px auto 2px auto;padding:0;positi=
+on:absolute} li#pad1{margin-top:5px} #topmenu{height:33px}#topmenuleft{f=
+loat:left;width:730px}
+ #topmenuright{     color:#F9F9F9;    float:right;    font-family:verdan=
+a,sans-serif;    font-size:12px;}     #topmenuright a{text-decoration:no=
+ne }    #topmenuright ul{list-style-type:none;    margin:0;    padding:0=
+;    z-index:100    }     #topmenuright  ul li{    display:inline;    fl=
+oat:left;    position:relative;               padding:7px 8px}     #topm=
+enuright  ul li a{color:#fff}     =
+
+ .rssnav{border-right:1px solid #696969; padding:7px 10px 7px 8px !impor=
+tant}
+ .rssnav a{   padding-left:19px;background:url("images/rss.png") no-repe=
+at scroll left center transparent;margin-left:3px;text-decoration:none} =
+
+ .rssnav:hover{background:#069;text-decoration:none} =
+
+.userlink a{   padding-left:19px;background:url("images/user.png") no-re=
+peat scroll left center transparent;margin-left:3px;text-decoration:none=
+} =
+
+.userlink:hover{background:#069;text-decoration:none} =
+
+.topmenulink a{   padding-left:3px; margin-left:3px;text-decoration:none=
+} =
+
+.topmenulink:hover{background:#069;text-decoration:none} =
+
+ #rssb{ border-right:1px solid #696969}#topMenu{position:absolute;left:-=
+13px;top:0}#topMenu ul li{float:left}#topMenu ul li a,#topMenu ul li div=
+{ color:#e4e4e4; display:block; font-family:verdana; font-size:12px; hei=
+ght:21px;  padding:6px 13px; text-decoration:none}#topMenu ul li div{col=
+or:#ccc;text-transform:none}#topMenu ul li a span{font-size:10px;color:#=
+999;line-height:120%}#topMenu ul li a:hover,#topMenu ul li a.selected{te=
+xt-decoration:none;background:#315C98;color:#FFF}#topMenu.ddsmoothmenu{z=
+-index:100}#topMenu.ddsmoothmenu ul{z-index:100;margin:0;padding:0;list-=
+style-type:none} #topMenu.ddsmoothmenu ul ul li a:hover{background:#2E55=
+8B}#topMenu.ddsmoothmenu ul li{position:relative;display:inline;float:le=
+ft}* html #topMenu.ddsmoothmenu ul li a{display:inline-block}#topMenu.dd=
+smoothmenu ul li ul{position:absolute;left:0;display:none;visibility:hid=
+den;width:auto}#topMenu.ddsmoothmenu ul li ul li{float:none;display:list=
+-item;background:#315C98;padding:0}#topMenu.ddsmoothmenu ul li ul li a,#=
+topMenu.ddsmoothmenu ul li ul li a:hover{text-align:left;margin:0;paddin=
+g:12px 0 12px 16px;line-height:100%;width:168px;height:1%; text-transfor=
+m:none;font-size:13px;color:#fff}#topMenu.ddsmoothmenu ul li ul li a{col=
+or:#B4E7E2}#topMenu.ddsmoothmenu ul li ul li a:hover{color:#FFF}#topMenu=
+.ddsmoothmenu ul li ul li a.last,#topMenu.ddsmoothmenu ul li ul li a.las=
+t:hover{border:none}* html #topMenu.ddsmoothmenu{height:1%}#topMenu.ddsm=
+oothmenu ul li.current-menu-item {  background:url(images/navthingy.png)=
+ bottom center no-repeat; color:#fff}#topMenu.ddsmoothmenu ul li.current=
+-menu-item a:hover{ background:none}#nav li.arrow{background:url(images/=
+menuarrow.png) right no-repeat !important;padding-right:17px !important}=
+ #topMenu li.arrow{background:url(images/smallmenuarrow.png) right no-re=
+peat} #topMenu li.arrow a:hover{background:#315C98 url(images/smallmenua=
+rrow.png) right no-repeat} #topMenu .sub-menu li.arrow{background:#315C9=
+8 url(images/arrowsubmenu.png) right no-repeat !important}  #nav .sub-me=
+nu li.arrow{background:#333 url(images/arrowsubmenu.png) right no-repeat=
+ !important} #logowrap{height:67px;margin-top:3px}
+ #logo{float:left;margin-top:4px}#logohead{float:right;width:660px}#head=
+ad{float:left;margin-top:0px}#twfb{float:right;margin-top:3px}#twfb ul{ =
+display:inline; float:left; padding:0px 8px 7px 7px; position:relative}#=
+twfb ul li{ display:inline; float:left; padding:2px 4px; position:relati=
+ve}    .tip{ background:none repeat scroll 0 0 #000; border-radius:2px 2=
+px 2px 2px; color:#FFF; display:none; font-family:verdana; font-size:11p=
+x; padding:0; position:fixed; width:319px; z-index:1000;-webkit-border-r=
+adius:2px;-moz-border-radius:2px;border-radius:2px}    #headgal{backgrou=
+nd:#fff}   #featured{ background:#FFF; float:left; padding:10px 10px 5px=
+; position:relative; width:1000px}  .scrollable{position:relative;overfl=
+ow:hidden;width:1000px;height:162px}#thumbs{width:20000em;position:absol=
+ute;clear:both} a.browse{display:block;width:27px;height:37px;cursor:poi=
+nter;font-size:1px;position:absolute;top:200px}  a.disabled{visibility:h=
+idden !important} .slide{  padding:0px; margin:0 16px 0 0; float:left; w=
+idth:314px; position:relative; display:inline}  .slide h2{ background:no=
+ne repeat scroll 0 0 #1E2D35; bottom:0; font-family:"Arvo","arial",serif=
+; font-size:14px !important; margin:13px; padding:0px 5px; position:abso=
+lute}  .slide h2 a{  color:#FFF; font-weight:normal; line-height:20px;  =
+text-decoration:none}  .slide a{ font-weight:bold}  .scrollablesingle{po=
+sition:relative;overflow:hidden;width:1000px;height:90px}  .slidesingle{=
+  padding:0px; margin:0 18px 0 0; float:left; width:316px;  display:inli=
+ne}  .slidesingle h2{  font-family:Georgia,"New Century Schoolbook","Nim=
+bus Roman No9 L",serif; color:#00428F; bottom:0; font-size:16px; font-we=
+ight:normal;  margin:0px 12px; padding:0px 6px}  .slidesingle h2 a{ font=
+-size:16px; color:#00428F;font-family:Georgia,"New Century Schoolbook","=
+Nimbus Roman No9 L",serif; color:#00428F; font-weight:normal;text-decora=
+tion:none; line-height:19px} .slidesingle h2 a:hover{ color:#F7142E; fon=
+t-weight:normal;text-decoration:none} #slidesingleimg{float:left;margin-=
+right:6px}    #m3ticker{position:absolute;text-align:left;width:850px;fl=
+oat:left}#ticker-area ul{   height:20px;    margin-left:4px;    overflow=
+:hidden}.ticker-area li{padding:0px;margin-top:-12px;list-style:none}#ti=
+cker-area a{padding:0px;color:#2c4654;font-size:13px;font-weight:normal;=
+text-decoration:none;list-style:none;font-family:"Arvo","arial",serif}#t=
+icker-area a:href{padding:0px;color:#2c4654;font-size:13px;font-weight:n=
+ormal;text-decoration:none;list-style:none}#ticker-area a:hover{padding:=
+0px;font-size:13px;text-decoration:none;font-weight:normal;color:#666;li=
+st-style:none}#m3tick{height:36px;position:absolute;right:0;top:115px;te=
+xt-align:left}#ticker-area{float:left;margin-top:0px}  .m3crumbs li{padd=
+ing:0px;margin-top:-12px;list-style:none}#m3crumbs a{padding:0px;color:#=
+2c4654;font-size:13px;font-weight:normal;text-decoration:none;list-style=
+:none;font-family:"arial",serif}#tickimg{float:left}.navi{ float:right;w=
+idth:110px;height:20px}.navi a{width:14px;height:12px;float:left;margin:=
+6px 3px 3px;background:url(images/bullets.png) 0 0 no-repeat;display:blo=
+ck;font-size:1px;cursor:pointer}.navi a:hover{background-position:0 -13p=
+x}.navi a.active{background-position:0 -13px}    #indextop{    } #indext=
+opleft{float:left;width:460px;margin:8px 0 0 4px !important} #indextopri=
+ght{float:right;width:187px;padding-right:7px}   .indextopleftslide{  pa=
+dding:0px; margin:0 16px 3px 0; float:left;  position:relative; display:=
+inline}   .indextopleftabsolute{  bottom:0;position:absolute}  .indextop=
+leftslide h3{ font-size:12px !important;padding-bottom:0px !important;  =
+margin:0 !important; line-height:normal !important;           border-bot=
+tom-width:0px !important}  .indextopleftslide h3 a{ padding:3px 10px !im=
+portant;     color:#FFF;border:0;font-family:"Droid Sans",serif;    font=
+-weight:normal !important;text-transform:uppercase; background:url(image=
+s/gtransbg.png) repeat;  text-decoration:none;font-size:16px !important}=
+  .indextopleftslide h2{    background:url(images/transbg.png) repeat; b=
+order:0; font-weight:normal;  font-family:"Arvo","arial",serif;margin:0 =
+!important;padding:3px 4px !important}  .indextopleftslide h2 a{ line-he=
+ight:6px;padding:0px 0 2px 0; color:#FFF;font-size:17px; line-height:nor=
+mal !important; font-weight:normal !important;font-family:"Arvo","arial"=
+,serif; text-decoration:none} .indextopleftslide h2 a:hover{text-decorat=
+ion:none} .indextopleftslide a{ font-weight:bold}   #twocats{width:462px=
+} #twocatsleft{float:left;width:226px} #twocatsright{float:right;width:2=
+26px}    .indextopleftabsolute1{  bottom:0;position:absolute}  .indextop=
+leftabsolute1 h3{color:#fff;  margin:0 !important; line-height:normal !i=
+mportant;           border-bottom-width:0px !important}  .indextopleftab=
+solute1 h3 a{  padding:3px 10px !important;     color:#FFF;border:0;font=
+-family:"Droid Sans",serif;    font-weight:normal !important;text-transf=
+orm:uppercase; background:url(images/gtransbg.png) repeat;  text-decorat=
+ion:none;font-size:14px !important}  .indextopleftabsolute1 h2{   backgr=
+ound:url(images/transbg.png) repeat;   border:0;    font-weight:normal; =
+ line-height:5px !important;    font-family:"Arvo","arial",serif;margin:=
+0 !important}  .indextopleftabsolute1 h2 a{        color:#FFF;font-size:=
+12px;       font-weight:normal !important;font-family:"Arvo","arial",ser=
+if;   text-decoration:none}  .indextopleftabsolute1 h2 a:hover{text-deco=
+ration:none} .indextopleftabsolute1 a{ font-weight:bold}                =
+        .indextopleftabsolute2{ color:#fff;bottom:0;position:absolute}  =
+.indextopleftabsolute2 h3{  margin:0 !important; line-height:normal !imp=
+ortant;           border-bottom-width:0px !important}  .indextopleftabso=
+lute2 h3 a{ padding:3px 10px !important;     color:#FFF;border:0;font-fa=
+mily:"Droid Sans",serif;    font-weight:normal !important;text-transform=
+:uppercase; background:url(images/gtransbg.png) repeat;  text-decoration=
+:none;font-size:14px !important}  .indextopleftabsolute2 h2{  background=
+:url(images/transbg.png) repeat; border:0; font-weight:normal;  font-fam=
+ily:"Arvo","arial",serif;margin:0 !important;padding:3px 4px !important;=
+ line-height:5px !important}  .indextopleftabsolute2 h2 a{  color:#FFF;f=
+ont-size:12px;  font-weight:normal !important;font-family:"Arvo","arial"=
+,serif; text-decoration:none} .indextopleftabsolute2 h2 a:hover{text-dec=
+oration:none} .indextopleftabsolute2 a{ font-weight:bold}     .thirdsmal=
+lsidebar{width:167px;margin-left:24px;padding-top:22px;border:solid #C7C=
+7C7;border-width:1px 1px 1px 1px;background:#f0f0f0; margin-bottom:10px;=
+   font-size:12px;line-height:1.4em}   .widgetcontentsmall{padding:5px 4=
+px 5px 4px}   .widgetcontentsmall:hover{background:#069;color:#F4F4F4}  =
+ .widgetcontentsmall:hover a{background:#069;color:#D3D3D3}.widgetconten=
+tsmall a{padding:0 !important;margin:0 !important;text-decoration:underl=
+ine;color:#333}#tipsbg{background:url(images/tipsbg.png) no-repeat !impo=
+rtant;width:173px;height:36px; position:absolute;margin-top:-15px;margin=
+-left:22px;color:#fff;font-family:"Trebuchet MS","Arial","Helvetica",san=
+s-serif;font-size:20px; padding-top:8px;text-align:center; text-transfor=
+m:uppercase;text-shadow:#324d25 1px 1px 0px}.timeago{color:#8D8D8D}.time=
+ago a{color:#8D8D8D;text-decoration:none} .widgetcontentsmall p{display:=
+inline} #commentbuble{background:url(images/comment.png) left no-repeat;=
+padding-left:14px}   =
+
+ #homepost{padding:0px 5px 8px 5px}  #geor{font-family:georgia;font-styl=
+e:italic}  #blogthumb{float:left;margin:6px 11px 0 0}.attachment-homethu=
+mb{padding:2px;border:1px solid #E4E4E4}#socialblog{height:21px;float:ri=
+ght}#tblog{height:21px;margin:0;padding:0;float:left}  #fblog{height:21p=
+x;margin:0;padding:0;float:left}  =
+
+ =
+
+ #cathome{color:#fff; -moz-border-radius:4px;    -webkit-border-radius:4=
+px;    -khtml-border-radius:4px;    border-radius:4px;    behavior:url(/=
+border-radius.htc); background:#EA9800;padding:0px 6px} =
+
+ #cathome a{color:#fff;-moz-box-shadow:1px 1px 10px rgba(0,0,0,0.1);-web=
+kit-box-shadow:1px 1px 10px rgba(0,0,0,0.1);text-transform:uppercase}
+ #cathome:hover{background:#A86D00}#cathome a:hover{color:#ccc}#cathome =
+a:focus{color:#fff}img#tagimg{padding-left:6px !important; margin-bottom=
+:-3px}
+
+ #taggreen{color:#fff; -moz-border-radius:4px;    -webkit-border-radius:=
+4px;    -khtml-border-radius:4px;    border-radius:4px;    behavior:url(=
+/border-radius.htc); background:#7CA326;padding:0px 6px} =
+
+ #taggreen a{color:#fff;-moz-box-shadow:1px 1px 10px rgba(0,0,0,0.1);-we=
+bkit-box-shadow:1px 1px 10px rgba(0,0,0,0.1);text-transform:uppercase}
+ #taggreen:hover{background:#7C9326}#cathome a:hover{color:#ccc}#cathome=
+ a:focus{color:#fff}img#tagimg{padding-left:6px !important; margin-botto=
+m:-3px}
+
+ #tagblue{color:#fff; -moz-border-radius:4px;    -webkit-border-radius:4=
+px;    -khtml-border-radius:4px;    border-radius:4px;    behavior:url(/=
+border-radius.htc); background:#00A2E8;padding:0px 6px} =
+
+ #tagblue a{color:#fff;-moz-box-shadow:1px 1px 10px rgba(0,0,0,0.1);-web=
+kit-box-shadow:1px 1px 10px rgba(0,0,0,0.1);text-transform:uppercase}
+ #tagblue:hover{background:#0092E8}#cathome a:hover{color:#ccc}#cathome =
+a:focus{color:#fff}img#tagimg{padding-left:6px !important; margin-bottom=
+:-3px}
+
+
+ #mrtindiva{margin:0 0 0 11px;width:301px}ul.tabs{margin:0; padding:0 0 =
+0 7px;float:left;list-style:none;height:32px;background:url(images/tabg.=
+png) repeat-x;width:294px}ul.tabs li{float:left;font-family:'Molengo',ar=
+ial,serif;border:none;margin:0;padding:0;text-transform:uppercase;backgr=
+ound:none;height:32px;line-height:28px; border-left:none;margin-bottom:-=
+1px;overflow:hidden;position:relative}ul.tabs li a{ color:#E8E8E8; displ=
+ay:block; font-size:18px; outline:medium none; padding:0 12px; text-deco=
+ration:none} html ul.tabs li.active{background:#fff}html ul.tabs li.acti=
+ve a{color:#636363}html ul.tabs li.active a:hover {background:#fff}.tab_=
+container{ overflow:hidden;clear:both;margin-bottom:20px;float:left;widt=
+h:100%;background:#fff;-moz-box-shadow:1px 1px 2px #DDD}.tab_content li{=
+background:none}.tab_content{ font-size:13px;    padding:1px 0px}#tab3{p=
+adding:6px 12px;line-height:25px}#tab2{padding:11px 0 0 0}.widget_catego=
+ries2 ul{margin:0;padding:0 0 0 11px}    .widget_categories2 li{ border-=
+bottom:1px solid #F0F0F0;    float:left;    padding:2px 8px 4px 8px;    =
+width:129px;background:url(images/arrow.png) no-repeat 0 8px}#tab2 ul.ch=
+ildren{margin-left:15px;margin-bottom:15px;font-size:.9em} #paginationte=
+ch{margin-bottom:6px;padding-left:95px;background:#F0F0F0 url(images/nav=
+igateg.png) no-repeat left}#paginationtech:hover{background:#F0F0F0 url(=
+images/navigater.png) no-repeat left} .postlink{color:#F0F0F0;padding-le=
+ft:6px;padding:7px 8px}.activeee{ text-shadow:#AF0101 1px 1px 0px;-webki=
+t-text-shadow:#AF0101 1px 1px 0px;-moz-text-shadow:#AF0101 1px 1px 0px;b=
+ackground:#D10101; padding:7px 8px;font-size:15px; font-family:arial; ma=
+rgin:0 4px;color:#f1f1f1;text-decoration:none;font-weight:bold} .postlin=
+k a{ padding:7px 8px;font-size:15px; font-family:arial; margin:0 4px;col=
+or:#444;text-decoration:none;font-weight:bold}.postlink a:hover{ color:#=
+f1f1f1; background:#555; text-decoration:none;font-weight:bold}.postlink=
+ a:focus{ color:#f1f1f1; background:#A40808; text-decoration:none;font-w=
+eight:bold}a.prevnext{background:#DADADA !important}#related{float:left;=
+ width:660px}#related h1{ background:#DDD; font-family:"Droid serif",geo=
+rgia,times new roman; font-size:22px; font-weight:normal; padding:6px 6p=
+x 7px 6px}#related h3{margin:0 0 20px 0}#related h3 a{color:#376268}#rel=
+ated h3 a:hover{color:#5B9EA8}.relatedpost{float:left; margin-bottom:10p=
+x}.relatedimg{float:left}.related{float:left; margin:0 9px 0px 6px; widt=
+h:150px; height:170px;}.relatedpost h3{font-size:12px !important;margin:=
+0 !important;text-shadow:0 !important;line-height:normal !important}#sha=
+remark{  border-bottom:1px solid #CCC; color:#4C4D50; height:34px; margi=
+n:0 0 11px; padding:0 0 2px}.share{float:right}.share ul{margin:0;paddin=
+g:0}.share li{display:inline;float:left;font-size:11px;line-height:48px;=
+list-style-type:none;margin:0 3px 0 9px;padding:0}.share li.last{margin-=
+right:0}.share li img{margin:0;display:inline;float:left}.sharethis{marg=
+in:0;display:inline;float:left;padding:2px 0 0 0} .comments-box{backgrou=
+nd:none repeat scroll 0 0 #F9F9F9;padding:7px 8px 8px}.meta_author{font-=
+family:Arial;float:left;font-size:13px;color:#555;margin-bottom:3px;widt=
+h:654px}.meta_cmt{font-family:Arial;float:right;font-size:13px;font-weig=
+ht:normal;margin-bottom:3px}.meta_cmt img{font-family:Arial;vertical-ali=
+gn:middle}ol.commentlist a:link{text-decoration:none}ol.commentlist li d=
+iv.vcard cite.fn a.url:hover{text-decoration:none}ol.commentlist{margin:=
+15px 0px 0px 0px;padding:0px;background:#FFF}ol.commentlist li{margin:0p=
+x 0px 10px 0px;padding:10px;list-style-type:none;border:1px dotted #CCC}=
+ol.commentlist li.alt{}ol.commentlist li.bypostauthor p{}ol.commentlist =
+li.byuser{}ol.commentlist li.comment-author-admin{}ol.commentlist li.com=
+ment{}ol.commentlist li div.comment-author{}ol.commentlist li div.vcard{=
+}ol.commentlist li div.vcard cite.fn{text-transform:capitalize;font-size=
+:20px;color:#111;font-style:normal;font-weight:normal}ol.commentlist li =
+div.vcard cite.fn a.url{color:#222}ol.commentlist li div.vcard img.avata=
+r{float:left;margin:0px 10px 10px 0px}ol.commentlist li div.vcard img.av=
+atar-32{padding:2px;background:#FFF;border:1px solid #DDD}ol.commentlist=
+ li div.vcard img.photo{padding:2px;background:#FFF;border:1px solid #DD=
+D}ol.commentlist li div.vcard span.says{font-size:18px;color:#888}ol.com=
+mentlist li div.commentmetadata{}ol.commentlist li div.comment-meta{marg=
+in:2px 0px 0px 0px;font-size:14px}ol.commentlist li div.comment-meta a{c=
+olor:#737373;text-decoration:none}ol.commentlist li p{margin:15px 0px 0p=
+x 0px;line-height:1.4em}ol.commentlist li ul{}ol.commentlist li div.repl=
+y{float:right;line-height:0;margin:-10px 0 0}ol.commentlist li div.reply=
+ a{background:#777;width:45px;font-weight:bold;font-family:Arial;height:=
+18px;padding:1px 5px 1px 5px;border:1px solid #111;font-size:11px;color:=
+#fff !important;border-radius:3px;-moz-border-radius:3px;-khtml-border-r=
+adius:3px;-webkit-border-radius:3px}ol.commentlist li div.reply a:hover{=
+background:#fb0013;border:1px solid #AC0246;color:#fff !important;text-d=
+ecoration:none}ol.commentlist li ul.children{}ol.commentlist li ul.child=
+ren li{margin:10px 0px 0px 0px;background:#FFF;border:1px dotted #CCC}ol=
+.commentlist li ul.children li li.alt{background:#FFF}ol.commentlist li =
+ul.children li.bypostauthor{}ol.commentlist li ul.children li.byuser{}ol=
+.commentlist li ul.children li.comment{}ol.commentlist li ul.children li=
+.comment-author-admin{}ol.commentlist li ul.children li.depth-2{}ol.comm=
+entlist li ul.children li.depth-3{}ol.commentlist li ul.children li.dept=
+h-4{}ol.commentlist li ul.children li.depth-5{}ol.commentlist li ul.chil=
+dren li.odd{}ol.commentlist li.even{}ol.commentlist li.odd{}ol.commentli=
+st li.parent{}ol.commentlist li.pingback{}ol.commentlist li.thread-alt{}=
+ol.commentlist li.thread-even{}ol.commentlist li.thread-odd{}#commentfor=
+m{}#commentform p{margin:0 0 4px !important}#commentform input{width:280=
+px;margin:7px 3px 0px 0px;padding:5px;border:2px solid #D7D7D7;-moz-bord=
+er-radius:2px;-webkit-border-radius:2px}#commentform .author{padding:3px=
+ 3px 3px 5px;background:#FFF;color:#666}#commentform .email{padding:3px =
+3px 3px 5px;background:#FFF;color:#666}#commentform .url{padding:3px 3px=
+ 3px 5px;background:#FFF;color:#666}#commentform textarea{width:75%;heig=
+ht:100px;color:#333;margin:7px 0px 0px 0px;padding:2px;border:2px solid =
+#D7D7D7;-moz-border-radius:2px;-webkit-border-radius:2px}#commentform .s=
+ubmit{font-family:Georgia,serif;padding:4px 8px;color:#fff;font-weight:b=
+old;text-shadow:#555 0px 1px;background-color:#178FCF;border:1px solid #=
+557c90;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3p=
+x;width:150px}#commentform .submit:hover{cursor:auto;background-color:#1=
+271A4}#displaying{color:#0C73A7;float:left;font-family:'Molengo',arial,s=
+erif;font-size:16px;font-weight:normal}#haveyoursay{color:#ED9017;float:=
+right;font-family:'Molengo',arial,serif;font-size:16px}.archive-list li:=
+hover{ color:#f1f1f1}.archive-list li:hover a{color:#666}.archive-list h=
+4{margin:0;font-size:15px;font-style:normal;font-weight:normal;line-heig=
+ht:125%} .archive-list h4 a{color:#0072A8} .archive-list h4 a:hover{colo=
+r:#4D565C} .archive-list a img,.archive-list a:visited img{float:left;ma=
+rgin:4px 18px 8px 0;padding:2px;border:1px solid #b9b9b9;background:#FFF=
+} .archive-list li{ border-bottom:1px dotted #e5e5e5; float:left; height=
+:83px; list-style:none outside none; margin:5px 0 4px 5px; padding:10px =
+0 3px 5px; width:320px}.archive-list img{margin:0px 9px 0px 0px !importa=
+nt}.archive-list .postmetadata{border:none;margin:0;padding:4px 0 0 0} .=
+clearfloat{display:inline-block}.clearfloat{display:block}       .archiv=
+e-list-big a img,.archive-list-big a:visited img{float:left;margin:4px 1=
+8px 8px 0;font-size:13px;padding:2px;border:1px solid #b9b9b9;background=
+:#FFF}     .archive-list-big h4 a{color:#069}  .archive-list-big h4 a:ho=
+ver{color:#0088CA}.archive-list-big h4{ font-family:'Droid Serif',Georgi=
+a,Sans-serif;       font-size:29px;   text-decoration:none;       font-w=
+eight:normal;line-height:36px;      margin:12px 0 7px}    .archive-list =
+a img,.archive-list a:visited img{float:left;margin:4px 18px 8px 0;paddi=
+ng:2px;border:1px solid #b9b9b9;background:#FFF}    .archive-list-big li=
+{list-style:none;text-align:justify;font:13px/24px Georgia,"Times New Ro=
+man",Times,serif;color:#090909;width:100%; padding:6px 7px 6px 5px;margi=
+n:3px 15px 3px 0}.archive-list-big img{margin:0 14px 0 0}.newer-older{ b=
+order-top:0px solid #EEE; font-family:georgia; font-size:19px; font-weig=
+ht:normal; padding:7px 8px 25px}.newer-older a{color:#5AF}.newer-older a=
+:hover{color:#048}#sidebartitlewrapper{}input,textarea{border:1px solid =
+#CCC;padding:2px}
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline; filename=us.png
+Content-Type: image/png; name=us.png
+Content-Location: http://www.opendebug.cn/images/country_icons_large/us.png
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAAL
+EwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5Jf
+xUYAAAPTSURBVHja7Jnva1tVGMc/J0l/JHVJbOcq6SYOtKmTlMFAZS+6vVDYi+E/
+oCtFEauISGuLL0QtwtCVyOgLHYgTOhCEMURfKL5RC4JYX4yE6Q0TofpuVdskTZPc
+H+f44t7cxNa0gifoxRw43Puc89yT53u+z3mePPcKpRRBbiEC3roAugD+7wAEEAb6
+vGuQmgPUI0D87Nk3fu/0r70nbmhfc/iTK4MRICGl4tSpY8zPP8qFCx/7CjrlPvq0
+Gl/96muAhADSZ86cNyYm7mNzswJAa24TwnM05Y6HBOyX+pTynmuRXzkW2d+qnQ+2
+0REDMezvCyQX5sci7pjEtt0OkM2eY2Zm2VtLkM2eY3b2iud4imx2ktmZZXc9AW9l
+J715haIpqxaot009pt8vF+YRQPqRh183HnzoXorFKrv3V7SMiR3zDVnQnhd3R5eW
+pvRHICFcBmxHYZo2S0tTTE+/6ytcuvSUNrnywTV9hkf7sdd+8bcnffr0a8bx43dT
+LG53LAq9yXV9ySsRx7yeI/Xl52MhAMeR1OsWpmljmjaXLz/j3/ty3d49X99Dv0U2
+TRthRfR1M4xQsSYDJ0++bIyOpiiXqx1j4MO3JzX+fwiBaREZubOVAZOrV2eo1y2/
+65TDhw7q6wcHCaeGmwycOPGSceTIEFtbtY4x8Ok7j+tlwLLoGbvHjUJSSqpVk3rd
+AmBlZYGJiVd9/X8qA6w/8ay+KBSLIm/92mQgk3nRSCYHqFbNjjHwEStaw6gqljic
+W/XygC2pbpusfneezPicl7Ihn19kPDPn56lcfpHM+JyftvI5T/ZyWS63SCYz52bw
+Vn0F8aef1LcbkTBYNjy/6jKQTr9gdLq4LxQudiQTh1wGHGo1y++FwkWtcq1mdbSg
+SR89+pyxvl7qKAM/PlDRW0om4xy69n7zDEipqFSWGRhoJhydcvWbL7QCCA8NNRlI
+paaNjY2tjjJw866f9LpOIs7It5+NCSDtOI4RCgWrvpdSEg6H3UMc5NeLEYCfh+8n
+Yloo0wqE0aK3B7u3pwlA2Q4KUFI1Cqj2hVfbWnVXEbZ7XvzF/c75vYq/hp5UKMdp
+ASClV8krkHtUlHKf6rGdMe3Gd4JSbTZF8Ge7BChHNgGM3LpBf39/oHy/VqtBNEpg
+D3HD5gjAWnKUWG8varsajEMci7Jtms2Xu/LvvFD6TyEQrs0NAAQxD7S60OHffiAe
+jwfK/lKpBIlEcA+xlC1hdG0wze0HgsXAZrnkA3AANsolAtgcAQwDGeCOgBm/DuQF
+7uelA941SK0OlEX3S30XQBdAF8C/2v4YAPx7dIYulAWrAAAAAElFTkSuQmCC
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline; filename=cn.png
+Content-Type: image/png; name=cn.png
+Content-Location: http://www.opendebug.cn/images/country_icons_large/cn.png
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAAL
+EwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5Jf
+xUYAAAOtSURBVHja7Jm/b+RUEMc/z/b+yGWTlaKLTtcgIUSJ6BA6oeuoaFEqJFr+
+AagpoEUIiQqEhAQU10BFQwuI/iTEnSJRnHSQXC57u5uw9vsxQ2E78Tq7+SHYDRY7
+ktd+9rN3vp75zswbG1WlyRLRcFkBWAH4vwMwQAx0in2TJABZAmz+8dbbh018+7e/
++nIrAfoqSvfOq1fzvRaYNZAJqFu+8unPvwD0E6CDKkhAhqP8apnczMnP6XmTj6Nb
+Qm/HM/4mIezXqFSZN3M8Ty4zT5Wov1nq2EkAVAL4YgNUFRND63nB7cb5uHhwmbnD
+QBl/Df6xgNepa/W5Z4hnzNQzZ80t58w89iHXGUgAEEWtQ92pL5g1Zf0Ny7NP2uAM
+dVVkmG8gmLYSrYMcA96gcsFLrO3PmzPr2DgPolUAAbCYGxmIQVPovBwwXU/3FWHy
+U4zpAB5kctbE8bbQf8cy+ryNexSdr9m/IOpcoXPVAqkl6ls2dhxRX1EB9dB9zbJ2
+F2RoGN9rEYZnU0c4UIafgX/kobhvoQBsBqFiAQ0B+cvh9wLPPoXejqf1goDkqc7u
+Roy+aKMuFOG3BuAQZATqw1IikGauxoEQ0CxFbYbfg/THQPtFe5Knj+51kWN7wVtZ
+XgjVrAWhAkClAJBlAHTvZNgHcPxDi/XXHb03HYOPOvNzQlcxG4UVMrN4AK2kbgFB
+0wzNLMlNwd4PHH3fAvH4h7B21xNvKP5gdulkbgduvp9x+GEH93u8eA7ECQSpudBk
+AlmK34ejbzlheXgCR98BGnJOzCpK/oSnHxjcrgPrFh+FIlNzoRCQSYamFtJLVoE3
+lGhTkaFB9gxhr5K0FwzAEKFVC2iFxJeV5LnA9scpT9/rkv265ELWUM8DgoxHV6tl
+HysH7xrsbx61fqn6q83ARBUA3qP+akr4fQhD0DRwHWKSpGaBwaBmo+tut5yvQ7y1
+VeGAD6jMK5+uS87XYYrEIuF0DdAQEZkKo4KJo6XVMv/c/+N6GHUYVfIStOZ+5XHd
+JWedN/XCfcZz5s2bNdY5/yMRFEGniEIhv1jyQC+x+tALVh4XrUq44n1a50AFgATJ
+C8+m8EAVmSaxoKo0qVMtUgUQAkRRoyKRFMVcdNIRMKYxylPpUhQLGpnuBzWBBoXO
+Ub6mn+7R/PcNYJDiZRcuJI3ri5Y6N54DjQUgVRKXCTjq9RrnSknZqRqMRjRQggFu
+AS8B2w1T/glw35B/Xtoo9k2SDBib1Zf6FYAVgBWAa5W/BwDqjjvtT+om2QAAAABJ
+RU5ErkJggg==
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline; filename=java64.png
+Content-Type: image/png; name=java64.png
+Content-Location: http://www.opendebug.cn/images/category/java64.png
+Content-Transfer-Encoding: Base64
+
+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
+rkJggg==
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline; filename=reply.png
+Content-Type: image/png; name=reply.png
+Content-Location: http://www.opendebug.cn/images/reply.png
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAIAAACRuyQOAAAAGXRFWHRTb2Z0d2Fy
+ZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABVlJREFUeNq8V2tTG2UUziab7G5IYHMp
+TbjfiiNQJKHaKYwfpGqljMUpOFM7Hasf/Ev6QcfP6rTOVAc0xQIVYSBAqHQ0pYYE
+giThEhJCwl7yZtezbAglCSHMOLzM7Oyy++6z55znOc8JJoqi4lyWUnFe6/yQ8FOf
+CAZDkUgkGo0ilMJxFUkStMFgtVgpivx/kLw+38z09PKyl2FYBCuFMrdIggQYq9Vq
+s3XY7fYikbBcRgDG8NCQb2WV5zgNQVguXqyqqqTLaEpLMfvwxwSDgcxdA03fvNlb
+DN4xJPj82dk5h8MRi+3W1NR0d3e3tLxO03TuNnjS5/ONjj7xeLypFOro6BgYuJ33
+yTxIsHl8bMzxeMRsNvX09NhstmIqAQl4+ODh+nqgqamh/9ZH1TVVpyABzMTEH47H
+DshVX18fhFJ8qWHvo59+np11Xmpq7u//0Gq1FGIEpEKGGRgcaKivPxOpIPQPbryn
+xlVz01PPFqpo+p28ycDljxoaGoKT69d7zgojL6hQV1fX1lY4EAyCHijKkh8JAvL7
+/a2tl4unbO6yWIzv33iXZdiTeCEhud1uOLa3t53p1aLIY5gmc5kU1SBnFUEUUi7o
+A5RRf/a88YLojwkvwtzKHreHAFutEpFeg1WVpFrLqWo9rlFi2XUCGZ61u/wT0Yx7
+Ah5exfBquNQISV6ZFox7R+EM7dWXqt5uKmsuSUcvdVij0QjHnUik+FBGVtG3f0Wf
+x0kZRvqnUn2M+gh7Fk59s7AxGWDkJEtIFVYrHJfcL4pEmg2x02tbiaSQe0uDQbqg
+QyJeTMLlLsJHvdH5TZRG6rDZoE7zLhcQ9PTWHmdng+Imn7/yvNQH8EOZIo2AwZO/
+r8UjbEpCAlVf6bSDMTx9OgE1y5uuzLlnB63FuOJcAhdREqIM7wt/7/BpJ+zt7YUG
+4XQ6Z2amc8EyFALIDUZ18OHoZAyUuYvhGKQRarYaE5UZkUO70+l0IyNPoM+C++V9
+h4AE/mxzhxSZvOXICeWuCkbw2+josnfZbu/MtQwlrixVS2XnRbzg25HMDhkDTmBX
+thNCNFNTUy7XwkGgZQ0NDeCtZrNZr9cDKmjOFWJ/9KBdnj9MFJ4ve/ghDyWOlJPY
+YBOex3OhTsFQ0Omce764CJao1ZbguLSzurrmzp2PRVLv8MYmQ9IuKDiGq7PwJIAU
+fyAv4J7IKzF7JX27UY2dNO8BHsexgUBwdWUFOrTX64OA7n96H7wuuLf/vTv+byTJ
+afUiUmEiUBGJSDxAzQ7uNSN2r1lHa09GenUl4rtffvW1AiXvffa5bHSbjPDIzS5G
+45oDAfAEpUjmsFGNX7uA99YRNJGCNoEXQ6DYHhPa2Kivq4VS+QMb8HnlJvoLu3Yy
+gP25KSxHeEXymDBojaJOT1yrIlpMssBVRc17kEbH+DiUxGqt8Lxccjh+UWtK7t79
+5EI52V1BvWkREzw5uc6N+TmZaY1l5GATVVmaBB+RJSjLUXnqWDk8PDw/NQU12N9j
+vvvhQWQ30d7ZodPr0hnCkpCctyrIekN6S5iJx5DUvAEAunhG9YXq5HK5gPFLSy/T
+pAIPq6u9cvXqG22XgR1ZTuiJpn5difkiEq2BBV0Wqq2cyPankxbLcpA6GPzgvSaT
+qba2DtwyM/q8CgOrplR565JuaRvzRxNhTrGwwTWaAenImgvFJAtLmn5gOqbIwoNj
+pjEmeCHMwncIeTy3wHhlNEjpJ4hi7RjKRoqCWcEqRDjXQsqLQgI6MCxzBExSckMq
+kANwONjCK0QtUUJq9aSm4C+AAmDSKGAwZKVRrgTAbG9tJ1OS1ZbpCbrUmMKPMeI/
+AQYAk83DuHKm5WsAAAAASUVORK5CYII=
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline; filename=bookmark.gif
+Content-Type: image/gif; name=bookmark.gif
+Content-Location: http://www.opendebug.cn/images/bookmark.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhDwARAOYAAP7+/v+aD/r49v+JCvn18/+DCP+LC/+HCf+NC/9/B/+TDfqZ
+E/mYE/+LCvz7+v+VDf+UDP+eD/+cD/91Avz7+/eTLf+QDPXr5v+MA/yMAv+mEe+z
+i/+lEvuSCf+OCv9/BP+BB9WDWP6HA/2GCvycEdR7S/+YD/+aDf+gD+3Vxf+GB/PK
+rP+JCPv49/97Bv/9/Oh/NumRVP9+B/XczvuJA/rq3vpwBf+WDveSE/9xAf+CB+lm
+G/+FB/lnBP94Bf+SDP+NCv95Bf+kEf+UDf+kENefhf+RDOxzGf+IA/+GBO6iaf+G
+Cf+FCf2eEeu8lOyNOtOLaPt4A/HYyezSwvx4B+WCS/97BO6DKf+BCP+DBv+PC/pm
+BPvu5vGOH/+oEfaBCeqsdv+fEOi5kO/q6vCeRf+gEfmjLv+FBv/+/v+iEOScdPTp
+5fRqB+J6MvxuBPShOPry7P90BOyRSf+ABf///wAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAPABEAQAedgHSCg4SFKxlIWAVMBwMG
+CBYQYIWUlYNcHRM5NiUEljs8ZWFCTTgLDCmUNVdqY5YvcjQfLjIJOiosI1KCAFBs
+WT8KQzcmAShkAIUzbkRva5bQ0F1JWyEU0E8YcT5WVEcwMXCCSl8icwkgBUuNHhUt
+dGhtUWcNj1pGCg8nYoVFPUABAkiIkEYDiQuFqgTh4MXMFAcCCCQrtMGJgEqBAAA7
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline; filename=20130104214940_54124.gif
+Content-Type: image/gif; name=20130104214940_54124.gif
+Content-Location: http://www.opendebug.cn/attached/images/20130104/20130104214940_54124.gif
+Content-Transfer-Encoding: Base64
+
+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
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline; filename=captcha.png
+Content-Type: image/png; name=captcha.png
+Content-Location: http://www.opendebug.cn/captcha
+Content-Transfer-Encoding: Base64
+
+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
+IQAAAABJRU5ErkJggg==
+
+------------gfYElCaD6LmMcbsJqtc2dr
+Content-Disposition: inline; filename=misc.htm
+Content-Type: text/html; name=misc.htm
+Content-Location: http://www.opendebug.cn/misc.js
+Content-Transfer-Encoding: 8bit
+
+<html><head><title>404 Not Found</title></head><body><h1>Not Found</h1><p><i>The URL /misc.js was not found</i></p><p></p></body></html>
+------------gfYElCaD6LmMcbsJqtc2dr--
